@@ -1,4 +1,4 @@
-# 최재원 · Backend Developer
+# Backend Developer
 
 > TPS 7.0 → 117.4 — 개선을 말로 하지 않고 **측정으로 증명**합니다.
 > 개선 전·후는 물론, 같은 코드로 Redis와 Valkey 대안까지 nGrinder로 비교 검증했습니다.
