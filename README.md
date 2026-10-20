@@ -7,9 +7,9 @@
   <a href="https://solved.ac/profile/zh2171"><img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fmazassumnida.wtf%2Fapi%2Fmini%2Fgenerate_badge%3Fboj%3Dzh2171&query=concat%28normalize-space%28substring%28%27Bronze++++Silver++++Gold++++++Platinum++Diamond+++Ruby++++++%27%2C1%2B10*string-length%28substring-before%28%27BSGPDR%27%2Csubstring%28%2F%2F*%5Blocal-name%28%29%3D%27text%27+and+%40class%3D%27tier%27%5D%2C1%2C1%29%29%29%2C10%29%29%2C%27+%27%2Cnormalize-space%28substring%28%27I++++II+++III++IV+++V++++%27%2C1%2B5*%28number%28substring%28%2F%2F*%5Blocal-name%28%29%3D%27text%27+and+%40class%3D%27tier%27%5D%2C2%29%29-1%29%2C5%29%29%29&label=solved.ac&color=17CE3A&style=for-the-badge&cacheSeconds=86400" height="28" alt="solved.ac 현재 등급 · Gold II"></a>
 </p>
 
-## 👋 About Me
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" width="24" height="24" alt="손 흔들기"> About Me
 
-**안녕하세요 백엔드 개발자, 최재원입니다.**
+<h1>안녕하세요 백엔드 개발자, 최재원입니다.</h1>
 
 저는 단순히 만든다고 끝이 아니라고 생각합니다. 해당 코드에서 필요한 부분, 불필요한 부분이 무엇인지 고심하고 **배포 및 운영**을 할 때도 **안정적으로 환경**을 어떻게 구성해야 할지 고민해야 된다고 생각합니다.
 
@@ -17,7 +17,7 @@
 
 지금까지 해온 프로젝트들은 OCI를 통해서 **배포 파이프라인**을 설정했으며 지금까지도 운영을 하고 있습니다. 각각의 프로젝트들은 제가 부족하다고 느낀 부분들이나 운영 중 생긴 문제들을 쓴 [**회고록**](https://lumisia.github.io/)으로 기록하고 있습니다.
 
-## 🤝 팀 협업 방식
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f91d/512.gif" width="24" height="24" alt="협업"> 팀 협업 방식
 
 <table>
   <thead>
@@ -36,9 +36,9 @@
   </tbody>
 </table>
 
-## 🚀 프로젝트
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" width="24" height="24" alt="프로젝트"> 프로젝트
 
-### 🗺️ 한갓지도 · 제주 여행 코스
+### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" width="22" height="22" alt="여행 지도"> 한갓지도 · 제주 여행 코스
 
 <p>
   <a href="https://hangatjeju.com/"><img src="https://img.shields.io/static/v1?label=%EC%82%AC%EC%9D%B4%ED%8A%B8&message=hangatjeju.com&color=2D7D65&style=flat-square&logo=googlechrome&logoColor=white" alt="한갓지도 사이트 · hangatjeju.com"></a>
@@ -57,7 +57,7 @@
 - **프로필 사진 조회** — 현재 사진만 공개하고 UUID 주소에 **브라우저 캐시 5분** 적용. HEAD 조회는 본문을 전송하지 않고 스트림 정리.
 - **배포·배치 운영** — Jenkins → Docker → Helm/k3s 배포, **실패 시 자동 롤백** 적용. 배치 Secret 분리와 롤백 전 진단 정보 수집.
 
-### 📄 FileinNOut · 실시간 문서 협업
+### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.gif" width="22" height="22" alt="문서 협업"> FileinNOut · 실시간 문서 협업
 
 <p>
   <a href="https://lumisia.fileinnout.com/"><img src="https://img.shields.io/static/v1?label=%EC%82%AC%EC%9D%B4%ED%8A%B8&message=lumisia.fileinnout.com&color=2D7D65&style=flat-square&logo=googlechrome&logoColor=white" alt="FileinNOut 사이트 · lumisia.fileinnout.com"></a>
@@ -86,7 +86,7 @@
 - **배포 환경 호환성** — backend·frontend·협업 서버 이미지를 **amd64/arm64**로 빌드하고 OCI k3s 환경에 맞춰 Jenkins·Helm 배포 구성.
 - **호스트 메트릭 수집** — 비활성 상태의 **Node Exporter를 활성화**하고 Grafana 호스트 대시보드 추가. CPU·메모리·디스크·네트워크 수집 구성.
 
-### 📊 Callog · 캠페인 협업
+### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ca/512.gif" width="22" height="22" alt="대시보드"> Callog · 캠페인 협업
 
 <p>
   <a href="https://magamcallog.kro.kr/"><img src="https://img.shields.io/static/v1?label=%EC%82%AC%EC%9D%B4%ED%8A%B8&message=magamcallog.kro.kr&color=2D7D65&style=flat-square&logo=googlechrome&logoColor=white" alt="Callog 사이트 · magamcallog.kro.kr"></a>
@@ -106,8 +106,24 @@
 - **Refresh Token 저장 구조** — DB 저장을 **Redis 양방향 인덱스·14일 TTL**로 전환. **Lua 1회**로 이전 키 삭제와 새 토큰 저장을 원자적으로 처리.
 - **기간 일정 표시** — 날짜마다 복제하던 일정을 **주간 구간·겹침 레인**으로 배치. 최대 **4줄**과 초과 일정 목록을 제공하고 ICS 가져오기/내보내기 지원.
 
-## 🎓 Education & Certification
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.gif" width="24" height="24" alt="학력"> Education & Certification
 
-- 🏫 한화시스템 BEYOND SW 캠프 24기 (2025.12 ~ 2026.06)
-- 🎓 서울디지털대학교 컴퓨터공학과 졸업 (2025.02)
-- 📜 정보처리기사 (2025.12)
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4da/512.gif" width="18" height="18" alt="교육 과정"> 한화시스템 BEYOND SW 캠프 24기 (2025.12 ~ 2026.06)
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.gif" width="18" height="18" alt="학력"> 서울디지털대학교 컴퓨터공학과 졸업 (2025.02)
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="18" height="18" alt="자격증"> 정보처리기사 (2025.12)
+
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6e0_fe0f/512.gif" width="24" height="24" alt="기술스택"> 기술스택
+
+### Backend
+
+![Java 17](https://img.shields.io/static/v1?label=&message=Java+17&color=007396&style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/static/v1?label=&message=Spring+Boot&color=6DB33F&style=for-the-badge&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/static/v1?label=&message=Spring+Security&color=6DB33F&style=for-the-badge&logo=springsecurity&logoColor=white) ![Spring Data JPA](https://img.shields.io/static/v1?label=&message=Spring+Data+JPA&color=59666C&style=for-the-badge&logo=hibernate&logoColor=white) ![MariaDB](https://img.shields.io/static/v1?label=&message=MariaDB&color=003545&style=for-the-badge&logo=mariadb&logoColor=white) ![Redis](https://img.shields.io/static/v1?label=&message=Redis&color=DC382D&style=for-the-badge&logo=redis&logoColor=white) 
+
+### DevOps
+
+![Docker](https://img.shields.io/static/v1?label=&message=Docker&color=2496ED&style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/static/v1?label=&message=Kubernetes&color=326CE5&style=for-the-badge&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/static/v1?label=&message=Helm&color=0F1689&style=for-the-badge&logo=helm&logoColor=white) ![Jenkins](https://img.shields.io/static/v1?label=&message=Jenkins&color=D24939&style=for-the-badge&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/static/v1?label=&message=GitHub+Actions&color=2088FF&style=for-the-badge&logo=githubactions&logoColor=white) ![OCI](https://img.shields.io/static/v1?label=&message=OCI&color=C74634&style=for-the-badge)
+
+### 측정·협업 도구
+
+![nGrinder](https://img.shields.io/static/v1?label=&message=nGrinder&color=555555&style=for-the-badge) ![Prometheus](https://img.shields.io/static/v1?label=&message=Prometheus&color=E6522C&style=for-the-badge&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/static/v1?label=&message=Grafana&color=F46800&style=for-the-badge&logo=grafana&logoColor=white) ![JUnit](https://img.shields.io/static/v1?label=&message=JUnit&color=25A162&style=for-the-badge&logo=junit5&logoColor=white) ![Git](https://img.shields.io/static/v1?label=&message=Git&color=F05032&style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/static/v1?label=&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)
+
+<sub>Animated emoji by <a href="https://googlefonts.github.io/noto-emoji-animation/">Google Noto</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></sub>
