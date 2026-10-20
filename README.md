@@ -9,7 +9,7 @@
 
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" width="24" height="24" alt="손 흔들기"> About Me
 
-<h1>안녕하세요 백엔드 개발자, 최재원입니다.</h1>
+<h1><img src="assets/greeting.svg" width="540" height="44" alt="안녕하세요 백엔드 개발자, 최재원입니다."></h1>
 
 저는 단순히 만든다고 끝이 아니라고 생각합니다. 해당 코드에서 필요한 부분, 불필요한 부분이 무엇인지 고심하고 **배포 및 운영**을 할 때도 **안정적으로 환경**을 어떻게 구성해야 할지 고민해야 된다고 생각합니다.
 
